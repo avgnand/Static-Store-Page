@@ -1,0 +1,6 @@
+Possible names for Store Front assignment
+
+CLOUD - Corpus Linguistics Online User Database
+CURL - Corpora of Under-Researched Languages
+ALTO - Aggregated Language Texts Online
+OSLO - Open-Source Languages Online
