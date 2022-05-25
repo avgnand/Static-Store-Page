@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div * {
+    text-align: center;
+}
+
+#topbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+#topbar a {
+    text-decoration: none;
+}
