@@ -16,3 +16,24 @@ header div * {
 #topbar a {
     text-decoration: none;
 }
+
+#sidebar {
+    max-width: 20vw;
+}
+
+#page-body {
+    display: flex;
+}
+
+.result-info {
+    display: flex;
+}
+
+.result-details {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
