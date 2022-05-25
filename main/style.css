@@ -18,19 +18,33 @@ header div * {
 }
 
 #sidebar {
-    max-width: 20vw;
+    width: 20vw;
 }
 
 #page-body {
     display: flex;
 }
 
+.result {
+    border: 1px solid black;
+    padding: 1em;
+}
+
 .result-info {
     display: flex;
+    align-items: flex-start;
 }
 
 .result-details {
     display: flex;
+}
+
+#filters {
+    width: 15vw;
+}
+
+#filters ul {
+    list-style: none;
 }
 
 footer {
