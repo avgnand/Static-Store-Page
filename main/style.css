@@ -1,3 +1,8 @@
+hr {
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -25,9 +30,23 @@ header div * {
     display: flex;
 }
 
+#search-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+    padding: 1em;
+    background-color: grey;
+}
+
 .result {
     border: 1px solid black;
     padding: 1em;
+    background-color: white;
+}
+
+.result h3, .result h5 {
+    margin: 0.1em;
 }
 
 .result-info {
@@ -40,7 +59,13 @@ header div * {
 }
 
 #filters {
-    width: 15vw;
+    width: auto;
+}
+
+.favorite {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #filters ul {
