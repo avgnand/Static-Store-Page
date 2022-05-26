@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Project CLOUD</title>
 </head>
@@ -29,7 +35,6 @@
         <nav id="sidebar">
             <div class="sidebar-sub">
                 <h4>Regions</h4>
-                <hr>
                 <ul>
                     <li><a href="#">North America</a></li>
                     <li><a href="#">South America</a></li>
@@ -41,7 +46,6 @@
             </div>
             <div class="sidebar-sub">
                 <h4>Status</h4>
-                <hr>
                 <ul>
                     <li><a href="#">Safe</a></li>
                     <li><a href="#">Endangered</a></li>
@@ -51,7 +55,6 @@
             </div>
             <div class="sidebar-sub">
                 <h4>Classification</h4>
-                <hr>
                 <ul>
                     <li><a href="#">Agglutinative</a></li>
                     <li><a href="#">Synthetic</a></li>
@@ -63,6 +66,7 @@
             <div id="searchbar">
                 <input type="search" name="search-bar" id="search-bar" placeholder="Enter Language Name or Features" size="40">
                 <button onclick="">Search</button>
+                <p>Your Tags: <span id="tags-selected">None</span></p>
             </div>
             <div id="search-results">
                 <div class="result">
@@ -71,35 +75,74 @@
                         <label for="favorite-box">Save</label>
                         <input type="checkbox" name="favorite-box">
                     </div>
-                    <div class="result-info">
+                    <div class="result-sub result-info">
                         <h5>Description:</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam ea commodi temporibus quis. Omnis velit a doloribus eligendi asperiores iusto eum libero fuga voluptatum, debitis tempore ut aut odio.</p>
                     </div>
-                    <div class="result-details">
+                    <div class="result-sub result-details">
                         <h5>Details:</h5>
                         <span>Published Jan. 1990 | Example Publisher</span>
+                    </div>
+                    <div class="result-sub result-tags">
+                        <h5>Tags:</h5>
+                        <span>None</span>
                     </div>
                 </div>
                 <div class="result">
                     <h3>Example Result</h3>
-                    <div class="result-info">
+                    <div class="favorite">
+                        <label for="favorite-box">Save</label>
+                        <input type="checkbox" name="favorite-box">
+                    </div>
+                    <div class="result-sub result-info">
                         <h5>Description:</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam ea commodi temporibus quis. Omnis velit a doloribus eligendi asperiores iusto eum libero fuga voluptatum, debitis tempore ut aut odio.</p>
                     </div>
-                    <div class="result-details">
+                    <div class="result-sub result-details">
                         <h5>Details:</h5>
                         <span>Published Jan. 1990 | Example Publisher</span>
+                    </div>
+                    <div class="result-sub result-tags">
+                        <h5>Tags:</h5>
+                        <span>None</span>
                     </div>
                 </div>
                 <div class="result">
                     <h3>Example Result</h3>
-                    <div class="result-info">
+                    <div class="favorite">
+                        <label for="favorite-box">Save</label>
+                        <input type="checkbox" name="favorite-box">
+                    </div>
+                    <div class="result-sub result-info">
                         <h5>Description:</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam ea commodi temporibus quis. Omnis velit a doloribus eligendi asperiores iusto eum libero fuga voluptatum, debitis tempore ut aut odio.</p>
                     </div>
-                    <div class="result-details">
+                    <div class="result-sub result-details">
                         <h5>Details:</h5>
                         <span>Published Jan. 1990 | Example Publisher</span>
+                    </div>
+                    <div class="result-sub result-tags">
+                        <h5>Tags:</h5>
+                        <span>None</span>
+                    </div>
+                </div>
+                <div class="result">
+                    <h3>Example Result</h3>
+                    <div class="favorite">
+                        <label for="favorite-box">Save</label>
+                        <input type="checkbox" name="favorite-box">
+                    </div>
+                    <div class="result-sub result-info">
+                        <h5>Description:</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam ea commodi temporibus quis. Omnis velit a doloribus eligendi asperiores iusto eum libero fuga voluptatum, debitis tempore ut aut odio.</p>
+                    </div>
+                    <div class="result-sub result-details">
+                        <h5>Details:</h5>
+                        <span>Published Jan. 1990 | Example Publisher</span>
+                    </div>
+                    <div class="result-sub result-tags">
+                        <h5>Tags:</h5>
+                        <span>None</span>
                     </div>
                 </div>
             </div>
