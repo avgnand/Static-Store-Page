@@ -8,8 +8,18 @@ header {
     justify-content: center;
 }
 
-header div * {
+#header-box {
+    position: relative;
+}
+
+#header-box h1, #header-box p {
     text-align: center;
+}
+
+#header-box #earth-icon {
+    position: absolute;
+    left: 0;
+    right: 100%;
 }
 
 #topbar {
