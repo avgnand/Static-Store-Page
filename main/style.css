@@ -40,6 +40,7 @@ header div * {
 }
 
 .result {
+    position: relative;
     border: 1px solid black;
     padding: 1em;
     background-color: white;
@@ -75,4 +76,7 @@ header div * {
 footer {
     display: flex;
     justify-content: center;
+    background-color: darkgray;
+    height: 2em;
+    margin: 0;
 }
