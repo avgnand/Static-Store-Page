@@ -3,23 +3,27 @@ hr {
     margin-bottom: 1em;
 }
 
-header {
+#header-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-#header-box {
-    position: relative;
-}
-
-#header-box h1, #header-box p {
+#header-box * {
     text-align: center;
 }
 
-#header-box #earth-icon {
+#header-img {
+    position: relative;
+}
+
+#header-img #earth-icon {
     position: absolute;
+    top: 0;
     left: 0;
-    right: 100%;
+    border: 1px solid black;
+    border-radius: 10vw;
+    width: 10vw;
 }
 
 #topbar {
