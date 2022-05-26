@@ -1,5 +1,18 @@
 html {
     font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom,
+    rgb(255,255,255),
+    rgb(199, 248, 255));
 }
 
 hr {
@@ -25,15 +38,17 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
+    margin: 0.5em;
     border: 1px solid black;
     border-radius: 10vw;
-    height: 5em;
+    height: 10em;
 }
 
 #topbar {
     display: flex;
     justify-content: flex-end;
-    gap: 0.5em;
+    gap: 1.5em;
+    margin-right: 0.5em;
 }
 
 #topbar a {
@@ -42,20 +57,28 @@ hr {
 
 #sidebar {
     width: 20vw;
+    padding: 1em;
 }
 
 .sidebar-sub h4 {
     padding: 0;
     margin: 0;
+    margin-top: 2em;
+    border-bottom: 0.2em solid rgb(226, 207, 133);
 }
 
 .sidebar-sub ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 #page-body {
     display: flex;
+}
+
+#searchbar p {
+    margin: 0;
 }
 
 #search-results {
@@ -84,16 +107,8 @@ hr {
     justify-content: space-between;
 }
 
-.result-info {
-
-}
-
 .result-info p {
     margin: 0;
-}
-
-.result-details {
-    
 }
 
 .favorite {
@@ -104,10 +119,12 @@ hr {
 
 #filters {
     width: auto;
+    padding: 1.5em;
 }
 
 #filters ul {
     list-style: none;
+    padding: 0;
 }
 
 footer {
