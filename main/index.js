@@ -19,9 +19,17 @@ function applyFilters() {
     tagSlot.innerText = "";
     if (tagsChecked.length) {
         for (let tag of tagsChecked) {
-            tagSlot.innerText += tag + ", ";
+            tagSlot.innerText += tag + "/";
         }
     } else {
         tagSlot.innerText = "None";
+    }
+}
+
+function clearFilters() {
+    tagsChecked = [];
+    tagSlot.innerText = "None";
+    for (let filter of filters) {
+        filter.checked = false;
     }
 }

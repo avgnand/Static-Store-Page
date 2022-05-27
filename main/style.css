@@ -58,6 +58,7 @@ input[type=checkbox] {
 
 #topbar a {
     text-decoration: none;
+    padding: 0.5em;
 }
 
 #topbar a:hover {
@@ -167,7 +168,11 @@ input[type=checkbox] {
 footer {
     display: flex;
     justify-content: center;
-    background-color: darkgray;
-    height: 2em;
-    margin: 0;
+    background-color: rgb(199, 248, 255);
+    height: 8em;
+    margin-top: 1em;
+}
+
+#footer-content * {
+    text-align: center;
 }
