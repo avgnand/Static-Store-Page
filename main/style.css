@@ -20,6 +20,11 @@ hr {
     margin-bottom: 1em;
 }
 
+input[type=checkbox] {
+    width: 1em;
+    height: 1em;
+}
+
 #header-box {
     display: flex;
     flex-direction: column;
@@ -55,9 +60,19 @@ hr {
     text-decoration: none;
 }
 
+#topbar a:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+
 #sidebar {
     width: 20vw;
     padding: 1em;
+}
+
+
+#sidebar h3 {
+    text-align: center;
 }
 
 .sidebar-sub h4 {
@@ -75,6 +90,11 @@ hr {
 
 #page-body {
     display: flex;
+}
+
+#searchbar {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #searchbar p {
@@ -118,13 +138,30 @@ hr {
 }
 
 #filters {
-    width: auto;
+    width: 16vw;
     padding: 1.5em;
+}
+
+#filters h4 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+    border-bottom: 0.2em solid rgb(226, 207, 133);
+}
+
+#filters h5 {
+    margin: 0;
+    margin-top: 2em;
+    border-bottom: 0.2em solid rgb(226, 207, 133);
 }
 
 #filters ul {
     list-style: none;
     padding: 0;
+}
+
+.filter-range {
+    padding-left: 0.5em;
 }
 
 footer {

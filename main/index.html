@@ -33,6 +33,7 @@
     </header>
     <div id="page-body">
         <nav id="sidebar">
+            <h3>Explore</h3>
             <div class="sidebar-sub">
                 <h4>Regions</h4>
                 <ul>
@@ -148,43 +149,78 @@
             </div>
         </section>
         <div id="filters">
+            <h4>Search Filters</h4>
+            <button onclick="applyFilters()">Apply</button>
             <ul>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">Year Published</label>
+                    <div class="filter-range">
+                        <label for="number-from">From</label>
+                        <input type="number" name="number-from" size="6" value="1900">
+                        <br>
+                        <label for="number-to">To</label>
+                        <input type="number" name="number-to" size="6" value="2000">
+                    </div>
+                </li>
+                <h5>File Type</h5>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">pdf</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">txt</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
-                    <input type="number" name="number">
+                    <label for="filter">json</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">csv</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">docx</label>
+                </li>
+                <h5>Category</h5>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">Grammar</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">Phonetics</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">Syntax</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">Morphology</label>
+                </li>
+                <h5>Publisher</h5>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">Indiana University Press</label>
                 </li>
                 <li>
                     <input type="checkbox" name="filter">
-                    <label for="filter">Example Filter</label>
+                    <label for="filter">Harvard University Press</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">Scholastic</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">McGraw Hill</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="filter">
+                    <label for="filter">Routledge</label>
                 </li>
             </ul>
         </div>
